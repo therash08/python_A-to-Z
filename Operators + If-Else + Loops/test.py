@@ -1,0 +1,2 @@
+helloWorld = print
+helloWorld("print")
