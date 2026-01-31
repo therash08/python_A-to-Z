@@ -7,20 +7,36 @@
 # print(s1)
 
 
-s3 = {1,2,'rash', 7.9, True}
-print(s3)
+# s3 = {1,2,'rash', 7.9, True}
+# print(s3)
 
-s4 = set([1,2,3,4])
-print(s4)
+# s4 = set([1,2,3,4])
+# print(s4)
 
-s5 = {1,1,2,3,3,5}
-print(s5)
-
-
-s1 = {1,2,3,4}
-s2 = {4,2,1,3}
-
-print(s1 == s2)
+# s5 = {1,1,2,3,3,5}
+# print(s5)
 
 
+# s1 = {1,2,3,4}
+# s2 = {4,2,1,3}
 
+# print(s1 == s2)
+
+
+set1 = set()
+print(set1)
+
+set1 = set("GeeksForGeeks")
+print(set1)
+
+# Creating a Set with the use of a List
+set1 = set(["Geeks", "For", "Geeks"])
+print(set1)
+
+# Creating a Set with the use of a tuple
+tup = ("Geeks", "for", "Geeks")
+print(set(tup))
+
+# Creating a Set with the use of a dictionary
+d = {"Geeks": 1, "for": 2, "Geeks": 3}
+print(set(d))
